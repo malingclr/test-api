@@ -1,0 +1,15 @@
+{
+  "endpoints": [
+    {
+    "popular": "https://komikindo.ch/",
+    "updates": "https://komikindo.ch/",
+    "detail": "https://komikindo.ch/daftar-manga/"
+    }
+  ],
+  "status": {
+    "isMaintenance": false,
+    "maintenanceMessage": "The app is currently undergoing maintenance.",
+    "appVersion": "1.0.0",
+    "appVersionOutdatedMessage": "A new version of the app is available. Please update to the latest version for the best experience."
+  }
+}
