@@ -1,15 +1,64 @@
 {
-  "endpoints": [
+  "sources": [
     {
-    "popular": "https://komikindo.ch/",
-    "updates": "https://komikindo.ch/",
-    "detail": "https://komikindo.ch/daftar-manga/"
+      "id": "komikindo",
+      "name": "Komikindo",
+      "enabled": true,
+      "priority": 1,
+      "endpoints": {
+        "popular": "https://komikindo.ch/",
+        "latest": "https://komikindo.ch/",
+        "explore": "https://komikindo.ch/daftar-manga/",
+        "detail": "https://komikindo.ch/manga/{slug}/",
+        "chapter": "https://komikindo.ch/{slug}/"
+      },
+      "capabilities": {
+        "hasSearch": true,
+        "hasDownload": true,
+        "hasHighQuality": false
+      },
+      "metadata": {
+        "successRate": 0.95,
+        "responseTime": 1200,
+        "lastChecked": "2025-01-30T10:00:00Z"
+      }
+    },
+    {
+      "id": "ikiru",
+      "name": "Ikiru",
+      "enabled": true,
+      "priority": 2,
+      "endpoints": {
+        "popular": "https://02.ikiru.wtf/",
+        "latest": "https://02.ikiru.wtf/",
+        "explore": "https://02.ikiru.wtf/manga-list/",
+        "detail": "https://02.ikiru.wtf/manga/{slug}/",
+        "chapter": "https://02.ikiru.wtf/chapter/{slug}/"
+      },
+      "capabilities": {
+        "hasSearch": true,
+        "hasDownload": true,
+        "hasHighQuality": true
+      },
+      "metadata": {
+        "successRate": 0.90,
+        "responseTime": 800,
+        "lastChecked": "2025-01-30T10:00:00Z"
+      }
     }
   ],
+  "sourcePreferences": {
+    "default": "komikindo",
+    "autoSwitch": true,
+    "fallbackOrder": ["komikindo", "ikiru"],
+    "showDuplicates": false,
+    "mergeEnabled": true
+  },
   "status": {
+    "mangaSource": "komikindo",
     "isMaintenance": false,
-    "maintenanceMessage": "The app is currently undergoing maintenance.",
+    "maintenanceMessage": null,
     "appVersion": "1.0.0",
-    "appVersionOutdatedMessage": "A new version of the app is available. Please update to the latest version for the best experience."
+    "appVersionOutdatedMessage": "Versi baru aplikasi tersedia. Silakan update untuk pengalaman terbaik."
   }
 }
