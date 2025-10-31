@@ -56,7 +56,7 @@
   },
   "status": {
     "mangaSource": "komikindo",
-    "isMaintenance": true,
+    "isMaintenance": false,
     "maintenanceMessage": "lagi diperbaiki gan",
     "appVersion": "1.0.0",
     "appVersionOutdatedMessage": "Versi baru aplikasi tersedia. Silakan update untuk pengalaman terbaik."
