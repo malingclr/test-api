@@ -31,7 +31,7 @@
       "endpoints": {
         "popular": "https://02.ikiru.wtf/",
         "latest": "https://02.ikiru.wtf/",
-        "explore": "https://02.ikiru.wtf/manga-list/",
+        "explore": "https://02.ikiru.wtf/advanced-search/",
         "detail": "https://02.ikiru.wtf/manga/{slug}/",
         "chapter": "https://02.ikiru.wtf/chapter/{slug}/"
       },
